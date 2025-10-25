@@ -26,6 +26,7 @@ static void setup_handlers(void){
     sigaction(SIGUSR1, &su1, NULL); sigaction(SIGUSR2, &su2, NULL);
 }
 
+# 123
 static void play_round_setter(int N){
     int target = 1 + rand()%N;
     got_guess = 0; result_equal = -1;
